@@ -2,10 +2,21 @@
 
 This is a playground project to test action workflows.
 
-## Current actions
-| Action        | Description |
-|---------------|--|
-| Auto Labeling | Auto label PRs based on keywords. |
+## Auto Labeling
+This will automatically label pull requests based on whether the title contains
+certain keywords.
+
+| Keyword | Label |
+| ------------- | ------------- |
+| Bug or Fix | `bug 🐛` |
+| CI/CD | `CI/CD 💿` |
+| Dependency or Dependencies | `dependencies` |
+| Documentation | `documentation 📖` |
+| Enhancement | `enhancement ✨` |
+| Feature | `feature 💰` |
+| Housekeeping or Refactoring | `housekeeping 🧹` |
+| Release | `release 🎉` |
+| Testing | `testing 🧪` |
 
 ## Auto Release
 
