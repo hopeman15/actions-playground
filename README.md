@@ -21,7 +21,7 @@ certain keywords.
 ## Auto Release
 
 This will automatically create a release including release notes if the label
-is set to `release 🎉 `. In order to bump the version set either `major 🥇`, 
+is set to `release 🎉 `. In order to bump the version set either `major 🥇`,
 `minor 🥈` or `patch 🥉` to automatically bump the version accordingly.
 
 #### Example
